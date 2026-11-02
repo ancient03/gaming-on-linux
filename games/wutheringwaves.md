@@ -1,7 +1,7 @@
 # Wuthering Waves
 
 - **Platform / Store:** Steam
-- **Status Kompatibilitas:** 🟢 Platinum
+- **Status Kompatibilitas:** 🟡 Gold
 - **Tanggal Pengujian:** 2026-11-02
 
 ---

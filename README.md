@@ -4,6 +4,14 @@ Repositori ini berisi dokumentasi dan catatan konfigurasi untuk menjalankan game
 
 ---
 
+### 🖥️ Spesifikasi  Pengujian
+- **Distro:** Zorin OS ( Ubuntu 24.04.5 )
+- **Kernel:** Linux 7.0.0-42-generic
+- **GPU & Driver:** Geforce GTX 1650 4 Gb (Driver : NVIDIA-SMI 580.178.04 )
+
+
+---
+
 ## 📁 Struktur Repositori
 
 ```text
@@ -21,8 +29,9 @@ gamingonlinux/
 
 | Game | Status | Runner Rekomendasi | Tautan Dokumentasi |
 | :--- | :---: | :--- | :--- |
-| **Wuthering Waves** | 🟢 Platinum | `DW-Proton Lastest` | [Lihat Catatan](games/wutheringwaves.md) |
-| **Zenless Zone Zero** | 🟢 Platinum | `DW-Proton Lastest` | [Lihat Catatan](games/zenlesszonezero.md) |
+| **Wuthering Waves** | 🟡 Gold | `DW-Proton Lastest` | [Lihat Catatan](games/wutheringwaves.md) |
+| **Zenless Zone Zero** | 🟡 Gold | `DW-Proton Lastest` | [Lihat Catatan](games/zenlesszonezero.md) |
+| **Roblox (Sober)** | 🟡 Gold | `-` | [Lihat Catatan](games/roblox.md) |
 
 > *Catatan status:* 🟢 **Platinum** (Berjalan lancar tanpa hambatan) • 🟡 **Gold** (Perlu sedikit tweak sederhana) • 🟠 **Silver** (Dapat dimainkan namun ada bug kecil) • 🔴 **Borked** (Tidak dapat dimainkan).
 
