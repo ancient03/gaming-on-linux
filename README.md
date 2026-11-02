@@ -12,15 +12,7 @@ gamingonlinux/
 ├── TEMPLATE.md             # File template kosong siap salin untuk game baru
 └── games/                  # Folder catatan kompatibilitas per game (1 file per game)
     ├── apex-legends.md
-    ├── baldurs-gate-3.md
-    ├── cyberpunk-2077.md
-    ├── elden-ring.md
-    ├── gta-v.md
-    ├── helldivers-2.md
-    ├── monster-hunter-world.md
-    ├── red-dead-redemption-2.md
-    ├── skyrim-se.md
-    └── the-witcher-3.md
+
 ```
 
 ---
@@ -29,84 +21,9 @@ gamingonlinux/
 
 | Game | Status | Runner Rekomendasi | Tautan Dokumentasi |
 | :--- | :---: | :--- | :--- |
-| **Cyberpunk 2077** | 🟢 Platinum | `GE-Proton9-x` / `Proton Experimental` | [Lihat Catatan](games/cyberpunk-2077.md) |
-| **Elden Ring** | 🟢 Platinum | `Proton Experimental` / `Proton 9.0-x` | [Lihat Catatan](games/elden-ring.md) |
-| **Apex Legends** | 🟢 Platinum | `Proton Experimental` | [Lihat Catatan](games/apex-legends.md) |
-| **Baldur's Gate 3** | 🟢 Platinum | `Proton Experimental` (DX11) | [Lihat Catatan](games/baldurs-gate-3.md) |
-| **Grand Theft Auto V** | 🟡 Gold | `GE-Proton9-x` | [Lihat Catatan](games/gta-v.md) |
-| **The Witcher 3: Wild Hunt** | 🟢 Platinum | `GE-Proton9-x` / `Proton 9.0-x` | [Lihat Catatan](games/the-witcher-3.md) |
-| **Helldivers 2** | 🟡 Gold | `Proton Experimental` | [Lihat Catatan](games/helldivers-2.md) |
-| **Red Dead Redemption 2** | 🟡 Gold | `Proton 9.0-x` / `GE-Proton` (Vulkan) | [Lihat Catatan](games/red-dead-redemption-2.md) |
-| **Monster Hunter: World** | 🟢 Platinum | `Proton 8.0-5` / `GE-Proton` | [Lihat Catatan](games/monster-hunter-world.md) |
-| **Skyrim Special Edition** | 🟢 Platinum | `GE-Proton9-x` | [Lihat Catatan](games/skyrim-se.md) |
+| **Wuthering Waves** | 🟢 Platinum | `DW-Proton Lastest` | [Lihat Catatan](games/wutheringwaves.md) |
 
 > *Catatan status:* 🟢 **Platinum** (Berjalan lancar tanpa hambatan) • 🟡 **Gold** (Perlu sedikit tweak sederhana) • 🟠 **Silver** (Dapat dimainkan namun ada bug kecil) • 🔴 **Borked** (Tidak dapat dimainkan).
-
----
-
-## 📋 Template Dokumentasi Game
-
-Gunakan template di bawah ini saat menambahkan game baru. Buat file baru di dalam folder `games/<nama-game>.md`:
-
-```bash
-cp TEMPLATE.md games/nama-game.md
-```
-
-### Format Template:
-
-```markdown
-# 🕹️ [Nama Game]
-
-- **Platform / Store:** Steam / Heroic / Lutris / Bottles / Epic Games
-- **App ID / URL:** [Tautan Steam Store atau ProtonDB]
-- **Status Kompatibilitas:** 🟢 Platinum / 🟡 Gold / 🟠 Silver / 🔴 Borked
-- **Tanggal Pengujian:** YYYY-MM-DD
-
----
-
-### 🖥️ Spesifikasi Sistem Pengujian
-- **Distro:** [Contoh: Arch Linux / Fedora 40 / Pop!_OS 22.04]
-- **Kernel:** [Contoh: 6.8.9-zen1]
-- **GPU & Driver:** [Contoh: AMD Radeon RX 6700 XT (Mesa 24.1) / NVIDIA RTX 3060 (Driver 550.78)]
-- **Desktop Environment / Window Manager:** [Contoh: KDE Plasma 6 (Wayland) / GNOME 46 (X11)]
-
----
-
-### ⚙️ Konfigurasi & Runner
-- **Proton / Wine Version:** [Contoh: GE-Proton9-5 / Proton Experimental / Proton 8.0-5]
-- **Steam Play Compatibility:** `Dicentang / Dipaksa (Force use of a specific compatibility tool)`
-
----
-
-### 🚀 Steam Launch Options
-\`\`\`bash
-gamemoderun mangohud %command%
-\`\`\`
-
----
-
-### 🛠️ Tweak Tambahan (Jika Diperlukan)
-- [ ] Install dependensi via Winetricks/Protontricks:
-  \`\`\`bash
-  protontricks [APP_ID] d3dcompiler_47 vcrun2019
-  \`\`\`
-- [ ] Ubah konfigurasi game (.ini / config):
-  - Lokasi file: `~/.steam/steam/steamapps/compatdata/[APP_ID]/pfx/drive_c/...`
-  - Perubahan: [Keterangan tweak]
-
----
-
-### ⚠️ Masalah yang Ditemukan & Solusi
-| Masalah | Penyebab | Solusi / Workaround |
-| :--- | :--- | :--- |
-| [Deskripsi kendala] | [Penyebab bug] | [Langkah perbaikan / launch options] |
-
----
-
-### 📝 Catatan Tambahan
-- Performa: [Catatan FPS rata-rata / stabilitas]
-- Anti-Cheat: [Jika ada informasi terkait EAC / BattlEye]
-```
 
 ---
 
