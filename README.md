@@ -1,5 +1,9 @@
 # 🎮 Gaming on Linux - Dokumentasi & Catatan Kompatibilitas
 
+<p align="center">
+  <img src="tamnel.jpg" alt="Gaming on Linux" width="500" />
+</p>
+
 Repositori ini berisi dokumentasi dan catatan konfigurasi untuk menjalankan game di Linux menggunakan Steam, Proton, Wine, dan berbagai tweak pendukung.
 
 ---
